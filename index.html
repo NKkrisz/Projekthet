@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="scroll.js" defer></script>
 </head>
 <body class="bg-gray-800 flex flex-col min-h-screen">
   <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full shadow-lg z-40">
@@ -38,9 +39,9 @@
   <main class="flex flex-col pt-28 text-white w-full lg:px-28">
 
     <header class="flex items-center justify-between lg:h-96 w-full lg:mt-32 px-6 ">
-      <div class="flex flex-col lg:w-1/2">
-        <h1 class="text-6xl">A MÉM JÓ</h1>
-        <p class="text-xl">A mémek sok ember számára élvezetesek és szórakoztatóak, mert gyakran humorosak és könnyen megérthetőek. Emellett a mémek segíthetnek az embereknek abban, hogy kifejeződjenek érzéseik és gondolataik, és kapcsolatot teremtsenek másokkal. Bár a mémek általában rövid és könnyen emészthető tartalmak, egyes mémek képesek összefoglalni és érzékeltetni bonyolult gondolatokat is.</p>
+      <div class="flex flex-col lg:w-1/2 lg:items-start items-center">
+        <h1 class="text-6xl uppercase">a mém jó</h1>
+        <p class="text-xl lg:text-left text-justify">A mémek sok ember számára élvezetesek és szórakoztatóak, mert gyakran humorosak és könnyen megérthetőek. Emellett a mémek segíthetnek az embereknek abban, hogy kifejeződjenek érzéseik és gondolataik, és kapcsolatot teremtsenek másokkal. Bár a mémek általában rövid és könnyen emészthető tartalmak, egyes mémek képesek összefoglalni és érzékeltetni bonyolult gondolatokat is.</p>
       </div>
       <aside class="relative w-1/3 group items-center lg:flex hidden">
         <img class="transition-all transform-gpu shadow-xl shadow-slate-900 absolute -translate-x-32 -translate-y-12 -rotate-12 rounded-md group-hover:-translate-x-40 group-hover:-translate-y-28" src="img/meme/wc.jpg" alt="">
@@ -48,29 +49,29 @@
         <img class="transition-all transform-gpu shadow-xl shadow-slate-900 absolute translate-x-10 translate-y-12 rotate-12 rounded-md group-hover:translate-x-20 group-hover:translate-y-28" src="img/meme/fine.jpg" alt="">
       </aside>
     </header>
-    <article class="pt-32">
-      <div class="overflow-x-hidden w-full h-40 relative">
+    <section class="lg:pt-32 pt-10">
+      <div class="overflow-x-hidden w-full lg:h-40 h-72 relative">
         <div class="absolute top-0 left-0 flex scroll">
-          <img class="rounded-md h-40 mr-6" src="img/meme/asztropolitika.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/aula.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/bankjegy.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/ebedesek.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/fine.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/merci.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/oltozo.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/wc.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/asztropolitika.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/aula.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/bankjegy.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/ebedesek.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/fine.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/merci.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/oltozo.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/wc.jpg" alt="">
 
-          <img class="rounded-md h-40 mr-6" src="img/meme/asztropolitika.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/aula.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/bankjegy.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/ebedesek.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/fine.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/merci.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/oltozo.jpg" alt="">
-          <img class="rounded-md h-40 mr-6" src="img/meme/wc.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/asztropolitika.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/aula.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/bankjegy.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/ebedesek.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/fine.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/merci.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/oltozo.jpg" alt="">
+          <img class="rounded-md lg:h-40 h-72 mr-6" src="img/meme/wc.jpg" alt="">
         </div>
       </div>
-    </article>
+    </section>
   </main>
 </body>
 </html>
